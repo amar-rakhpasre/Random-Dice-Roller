@@ -9,7 +9,7 @@ function rollDice(){
     for(let i = 0; i < userinput; i++){
         const value = Math.floor(Math.random() * 6) + 1;
         values.push(value);
-        imgs.push(`<img src="./${value}.png" alt="Dice ${value}">`);
+        imgs.push(`<img src="seven_pro/index.js/${value}.png" alt="Dice ${value}">`);
           
     }
     
